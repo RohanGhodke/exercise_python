@@ -7,9 +7,11 @@ while i < n:
     i += 1
 
 def sum():
-    sum = 0
-    for i in l:
-        sum = sum + l[i]
-    print('Sum of numbers in the list is:',sum)
+    s = 0
+    i = 0
+    while i < n:
+        s = s + l[i]
+        i += 1
+    print('Sum of numbers in the list is:',s)
 
 sum()    
